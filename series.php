@@ -1,3 +1,4 @@
+<a href="index.php">Accueil</a>
 <?php
 class Series{
     public $title;

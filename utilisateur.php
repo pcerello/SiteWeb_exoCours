@@ -1,3 +1,4 @@
+<a href="index.php">Accueil</a>
 <?php
 
 $dsn = "mysql:dbname=etu_pcerello;host=info-titania";
