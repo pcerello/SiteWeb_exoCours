@@ -10,7 +10,7 @@
                 display: flex;
                 flex-direction: column;
                 flex: 1;
-                background-image: url("imageFond.jpg");
+                background-image: url("imageFond.png");
             }
             .colonne2{
                 display: flex;
