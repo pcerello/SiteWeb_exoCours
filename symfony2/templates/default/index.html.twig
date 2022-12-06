@@ -1,0 +1,20 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Hello DefaultController!{% endblock %}
+
+{% block body %}
+Bonjour
+<a href="{{path('hello', {name: 'Pauline'})}}">
+Pauline
+</a>
+<br>
+Bonjour
+<a href="{{path('hello', {name: 'Alice'})}}">
+Alice
+</a>
+<br>
+Bonjour
+<a href="{{path('hello', {name: 'Bob'})}}">
+Bob
+</a>
+{% endblock %}
