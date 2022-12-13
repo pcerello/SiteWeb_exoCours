@@ -16,8 +16,10 @@
     <body>
         <a href="{{ path('app_default') }}"> Accueil </a>
         -
+        <a href="{{ path('app_message_index') }}"> Messages </a>
+        -
         {% if app.user %}
-        [{{ app.user.name }}]
+        [{{ app.user.name }}, {{ app.user.country }}]
             <a href="{{ path('app_logout') }}"> Déconnexion </a>
         {% else %}
             <a href="{{ path('app_login') }}"> Connexion </a>

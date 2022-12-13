@@ -50,7 +50,7 @@
                 <a href="identification.php">Identification</a>
                 <h2>Frameworks</h2>
                 <h3>TD1 : Routage et vues</h3>
-                <p>Modifications effectuées dans le dossier symfony</p>
+                <p>Modifications effectuées dans le dossier symfony2</p>
             </div>
             
             <div class="colonne1">

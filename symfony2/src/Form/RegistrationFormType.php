@@ -44,6 +44,7 @@ class RegistrationFormType extends AbstractType
                 ],
             ])
             ->add('name')
+            ->add('country')
         ;
     }
 
